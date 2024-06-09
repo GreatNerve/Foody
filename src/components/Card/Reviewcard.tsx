@@ -25,7 +25,7 @@ export default function ReviewCard({
             />
 
             <div>
-              <ReviewStar rating={4} />
+              <ReviewStar rating={rating} size={20} />
 
               <p className="mt-0.5 text-lg font-medium text-gray-900">{name}</p>
             </div>
